@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="C:\ccviews\angular-jest\src\app\steptwo\steptwo.component.spec.ts" errors="0" package="C:\ccviews\angular-jest\src\app\steptwo\steptwo.component.spec.ts" hostname="localhost" tests="3" failures="0" time="3.888" timestamp="2018-05-30T03:55:05">
+    <properties>
+    </properties>
+    <testcase classname="SteponeComponent" name="should create" time="0">
+    </testcase>
+    <testcase classname="SteponeComponent" name="should have the correct content" time="0">
+    </testcase>
+    <testcase classname="SteponeComponent" name="snapshot should pass" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="C:\ccviews\angular-jest\src\app\stepone\stepone.component.spec.ts" errors="0" package="C:\ccviews\angular-jest\src\app\stepone\stepone.component.spec.ts" hostname="localhost" tests="3" failures="0" time="3.919" timestamp="2018-05-30T03:55:05">
+    <properties>
+    </properties>
+    <testcase classname="SteponeComponent" name="should create" time="0">
+    </testcase>
+    <testcase classname="SteponeComponent" name="snapshot should pass" time="0">
+    </testcase>
+    <testcase classname="SteponeComponent" name="do some other complete thing and compared snapshot" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>

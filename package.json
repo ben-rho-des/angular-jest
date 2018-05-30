@@ -1,0 +1,65 @@
+{
+  "name": "mediumpost",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "dev": "ng serve --open",
+    "build": "ng build --prod",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "test": "jest",
+    "test:coverage": "jest --runInBand --coverage",
+    "test:snapshot": "jest --coverage -u",
+    "test:watch": "jest --clearCache && jest --watch"
+  },
+  "jest": {
+    "preset": "jest-preset-angular",
+    "setupTestFrameworkScriptFile": "<rootDir>/jestSetup.ts",
+    "testResultsProcessor": "<rootDir>/node_modules/jest-junit-reporter",
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/jestGlobalMocks.ts",
+      "<rootDir>/jestSetup.ts",
+      "<rootDir>/node_modules/",
+      ".module.ts",
+      ".html"
+    ],
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      },
+      "__TRANSFORM_HTML__": true
+    }
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^5.2.0",
+    "@angular/common": "^5.2.0",
+    "@angular/compiler": "^5.2.0",
+    "@angular/core": "^5.2.0",
+    "@angular/forms": "^5.2.0",
+    "@angular/http": "^5.2.0",
+    "@angular/platform-browser": "^5.2.0",
+    "@angular/platform-browser-dynamic": "^5.2.0",
+    "@angular/router": "^5.2.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.5.6",
+    "zone.js": "^0.8.19"
+  },
+  "devDependencies": {
+    "@angular/cli": "~1.7.2",
+    "@angular/compiler-cli": "^5.2.0",
+    "@angular/language-service": "^5.2.0",
+    "@types/jest": "^22.2.3",
+    "@types/node": "~6.0.60",
+    "codelyzer": "^4.0.1",
+    "jest": "^22.4.3",
+    "jest-junit-reporter": "^1.1.0",
+    "jest-preset-angular": "^5.2.2",
+    "protractor": "~5.1.2",
+    "ts-node": "~4.1.0",
+    "tslint": "~5.9.1",
+    "typescript": "~2.5.3"
+  }
+}

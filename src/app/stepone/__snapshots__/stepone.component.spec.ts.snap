@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SteponeComponent do some other complete thing and compared snapshot 1`] = `
+<app-stepone
+  model={[Function Object]}
+  valid={[Function EventEmitter]}
+>
+  <form
+    class="ng-untouched ng-pristine ng-invalid"
+    novalidate=""
+  >
+    <label
+      for="name"
+    >
+      Name of something: 
+    </label>
+    <input
+      class="ng-untouched ng-pristine ng-invalid"
+      id="name"
+      name="name"
+      ng-reflect-model="Mr brown fox"
+      ng-reflect-name="name"
+      ng-reflect-required=""
+      required=""
+      type="text"
+    />
+    <label
+      for="type"
+    >
+      Type of named thing:
+    </label>
+    <input
+      class="ng-untouched ng-pristine ng-valid"
+      id="type"
+      name="type"
+      ng-reflect-model="He's quick and jumpy"
+      ng-reflect-name="type"
+      requireds=""
+      type="text"
+    />
+    <button
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+</app-stepone>
+`;
+
+exports[`SteponeComponent snapshot should pass 1`] = `
+<app-stepone
+  model={[Function Object]}
+  valid={[Function EventEmitter]}
+>
+  <form
+    class="ng-untouched ng-pristine ng-valid"
+    novalidate=""
+  >
+    <label
+      for="name"
+    >
+      Name of something: 
+    </label>
+    <input
+      class="ng-untouched ng-pristine ng-valid"
+      id="name"
+      name="name"
+      ng-reflect-model=""
+      ng-reflect-name="name"
+      ng-reflect-required=""
+      required=""
+      type="text"
+    />
+    <label
+      for="type"
+    >
+      Type of named thing:
+    </label>
+    <input
+      class="ng-untouched ng-pristine ng-valid"
+      id="type"
+      name="type"
+      ng-reflect-model=""
+      ng-reflect-name="type"
+      requireds=""
+      type="text"
+    />
+    <button
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+</app-stepone>
+`;

@@ -1,0 +1,10 @@
+<div class="containter">
+  <h1>silly app</h1>
+  <div *ngIf="step === 1;else steptwocontent">
+    <app-stepone (valid)="onValid($event)"></app-stepone>
+  </div>
+</div>
+
+<ng-template #steptwocontent>
+  <app-steptwo></app-steptwo>
+</ng-template>

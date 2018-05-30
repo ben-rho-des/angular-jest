@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SteponeComponent snapshot should pass 1`] = `
+<app-steptwo>
+  <p>
+    Yay done!
+  </p>
+</app-steptwo>
+`;
